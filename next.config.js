@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   env: {
     MONGOURI:
-      'mongodb+srv://ahim:got@got-cards.vhhqyod.mongodb.net/?retryWrites=true&w=majority',
+      'mongodb+srv://ahim:got@got-cards.vhhqyod.mongodb.net/GOT Cards?retryWrites=true&w=majority',
   },
 };
 
