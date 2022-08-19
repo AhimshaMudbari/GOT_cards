@@ -1,0 +1,48 @@
+.navigationbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    align-items: center;
+    background: #000;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    z-index: 11111;
+    position: absolute;
+}
+
+.img {
+    display: flex;
+    cursor: pointer;
+    transition: transform 250ms;
+}
+
+.img:hover {
+    transform: translateY(-10px);
+}
+
+.data {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    font-weight: 880;
+}
+
+.card {
+    margin-bottom: 1px;
+    display: flex;
+    width: 10px;
+    justify-content: center;
+    width: 25%;
+    transition: transform 250ms;
+}
+
+.card:hover {
+    color: rgb(191, 191, 247);
+    transform: translateY(-8px);
+}
+
+.buttons {
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+}
