@@ -1,0 +1,33 @@
+.para {
+    color: white;
+    font-weight: 700;
+    margin-top: 11px;
+    opacity: 70%;
+}
+
+.paracon {
+    padding: 5px;
+    margin-top: 15px;
+    line-height: 30px;
+    color: skyblue;
+    opacity: 80%;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.logoimg {
+    margin: 2px 10px 15px 10px;
+    display: flex;
+    justify-content: space-between;
+}
