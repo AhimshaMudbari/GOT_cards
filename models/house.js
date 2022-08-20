@@ -1,5 +1,4 @@
-const mongoose = require('mongoose');
-
+import mongoose from 'mongoose';
 const houseSchema = new mongoose.Schema({
   name: {
     type: Array,
