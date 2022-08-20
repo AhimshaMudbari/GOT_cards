@@ -6,7 +6,7 @@ function Layout({ childern }) {
   return (
     <>
       <Navbar />
-      <Home />
+      {<Home />}
       <Footer />
     </>
   );
