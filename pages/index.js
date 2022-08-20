@@ -7,15 +7,15 @@ import {
   faArrowCircleLeft,
 } from '@fortawesome/free-solid-svg-icons';
 import Cards from '../component/Cards';
-export default function Home() {
+import axios from 'axios';
+
+const Home = () => {
   const imgarr = [
     'https://cdn.pixabay.com/photo/2020/11/13/16/51/white-walker-5739181__340.jpg',
     'https://cdn.pixabay.com/photo/2019/05/05/15/05/game-of-thrones-4180794_960_720.jpg',
     'https://cdn.pixabay.com/photo/2018/09/19/17/49/keychain-3689063_960_720.jpg',
   ];
   const n = parseInt(Math.random() * 3);
-
-  console.log(n);
   return (
     <>
       <div className={styles.topper}>
@@ -96,7 +96,13 @@ export default function Home() {
         </div>
         <hr className={styles.hr} />
       </div>
-      <Cards />
+      <div>
+        <h1 className={styles.character}>Character cards</h1>
+
+        <Cards />
+      </div>
     </>
   );
-}
+};
+
+export default Home;
